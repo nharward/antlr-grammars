@@ -129,7 +129,7 @@ end	:	'END';
 
 noreply	:	'noreply';
 
-key	:	WORD | INTEGER;
+key	:	.;
 
 flags	:	INTEGER;
 
@@ -153,7 +153,7 @@ statistic_name
 	:	WORD;
 
 statistic_value
-	:	WORD | INTEGER;
+	:	.;
 
 size	:	INTEGER;
 
